@@ -1,0 +1,489 @@
+* {
+   box-sizing: border-box;
+}
+
+html {
+   height: 100%;
+}
+
+body {
+   height: 100%;
+   background-color: rgb(0, 0, 0);
+   margin: 0;
+   padding: 0;
+}
+
+.header {
+   background-color: rgba(70, 70, 70, 0.226);
+   width: 100%;
+   height: 7%;
+   position: absolute;
+   z-index: 2;
+}
+
+.section1 {
+   height: 100dvh;
+   width: 100%;
+   background-color: rgb(20, 20, 20);
+   position: relative;
+}
+
+.section2 {
+   height: 90dvh;
+   width: 100%;
+   background-color: rgb(44, 44, 44);
+   position: relative;
+}
+
+.adv {
+   height: 10dvh;
+   width: 100%;
+   position: relative;
+   background-color: rgb(255, 255, 255);
+}
+
+.section3 {
+   height: 90dvh;
+   width: 100%;
+   position: relative;
+   background-color: rgb(20, 20, 20);
+}
+
+.section4 {
+   height: 90dvh;
+   width: 100%;
+   position: relative;
+   background-color: rgb(44, 44, 44);
+}
+
+.end {
+   width: 100%;
+   height: 200px;
+   background-color: rgb(0, 0, 0);
+}
+
+
+
+
+
+@media only screen and (max-width: 480px) {
+
+   .menu * {
+      cursor: pointer;
+
+   }
+
+   .material-icons {
+      position: absolute;
+      transition: .2s;
+   }
+
+   .logo {
+      width: 15%;
+      height: 100%;
+      float: left;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+   }
+
+   .info {
+      width: 70%;
+      height: 100%;
+      float: left;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      font-family: "League Spartan", serif;
+      font-size: 7vw;
+      color: #fdecfd;
+   }
+
+   .menu {
+      width: 15%;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 7%;
+      float: left;
+      position: fixed;
+      left: 0;
+      z-index: 335;
+   }
+
+   body {
+      background-color: rgb(0, 0, 0);
+   }
+
+   .section1 {
+      height: 100dvh;
+      width: 100%;
+      background-color: #855378;
+
+      position: relative;
+   }
+
+   .section2 {
+      height: 90dvh;
+      width: 100%;
+      background-color: rgb(160, 124, 167);
+      position: relative;
+   }
+
+   .adv {
+      height: 7%;
+      width: 100%;
+      background-color: rgb(71, 69, 71);
+   }
+
+   .section3 {
+      height: 90dvh;
+      width: 100%;
+      position: relative;
+      background-color: #855378;
+   }
+
+   .section4 {
+      height: 90dvh;
+      width: 100%;
+      position: relative;
+      background-color: rgb(160, 124, 167);
+   }
+
+   .end {
+      width: 100%;
+      height: 120px;
+      background-color: #663d5c;
+   }
+
+   .endMenu {
+      transition: left .5s ease-in-out;
+      position: fixed;
+      bottom: 0;
+      left: -85%;
+      width: 80%;
+      height: 80px;
+      color: #fdecfd;
+      background-color: #663d5c;
+      z-index: 6;
+      border-top: 1px solid #915a84;
+   }
+
+   .ckicl {
+      height: 100%;
+      width: 20%;
+      position: fixed;
+      z-index: 3;
+      display: none;
+      right: 0;
+   }
+
+   .fixmenu {
+      height: 100%;
+      width: 100%;
+      background-color: rgba(0, 0, 0, 0.219);
+      position: fixed;
+      z-index: 3;
+      display: none;
+   }
+
+   .flexi {
+      padding: 14vw 0 18vw 0;
+      position: fixed;
+      transition: left .5s ease-in-out;
+      left: -90%;
+      width: 80%;
+      height: 100%;
+      overflow-y: scroll;
+      box-shadow: 0 0 30px 10px rgba(78, 14, 49, 0.486);
+      z-index: 4;
+      background-color: #663d5c;
+   }
+
+   .header {
+      background-color: #663d5c;
+      width: 100%;
+      height: 7%;
+      z-index: 2;
+      position: fixed;
+
+   }
+
+
+
+   .mainText {
+      width: 80%;
+      height: 7%;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      font-family: "League Spartan", serif;
+      font-size: 7vw;
+      color: #fdecfd;
+      position: fixed;
+      top: 0;
+      box-shadow: -3px 5px 10px -3px #38192f;
+      background-color: #663d5c;
+   }
+
+   .company {
+      width: 33%;
+      height: 100%;
+      float: left;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+   }
+
+   .contact {
+      width: 35%;
+      height: 100%;
+      float: left;
+   }
+
+   .about {
+      margin: 0 0.7vw;
+      width: 30%;
+      height: 100%;
+      float: left;
+   }
+
+   .textCompany {
+      font-family: "League Spartan", serif;
+      font-size: 4vw;
+      font-weight: 500;
+      color: #9b7c9b;
+   }
+
+   .textEnd {
+      width: 100%;
+      height: 35%;
+      display: flex;
+      justify-content: center;
+      align-items: end;
+      font-family: "League Spartan", serif;
+      font-size: 5vw;
+      color: #fdecfd;
+      font-weight: 600;
+   }
+
+   .media {
+      height: 50%;
+      width: 90%;
+      display: flex;
+      justify-content: center;
+      align-items: start;
+      margin: 3% auto;
+   }
+
+   .cos {
+      width: 25%;
+      height: 7vw;
+      margin: 13px 5px;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+   }
+
+   .fa {
+      padding: 2vw;
+      text-align: center;
+      text-decoration: none;
+      box-shadow: 0 0 10px rgb(66, 37, 53);
+      border-radius: 1vw;
+   }
+
+   .fa-facebook {
+      background: #3B5998;
+      color: white;
+      padding: 2vw 2.7vw;
+   }
+
+   .fa-instagram {
+      background: #bd3ac2;
+      color: white;
+      padding: 2vw 2.2vw;
+   }
+
+   .fa-skype {
+      background: #00aff0;
+      color: white;
+      padding: 2vw 2.2vw;
+   }
+
+   .img {
+      width: 100%;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 70%;
+   }
+
+   .img2 {
+      width: 100%;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 100%;
+   }
+
+   .lg {
+      height: 50%;
+      width: 20%;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      font-family: "League Spartan", serif;
+      font-size: 4vw;
+      color: #fdecfd;
+      margin: .2vw;
+   }
+
+   .language {
+      width: 100%;
+      display: flex;
+      justify-content: center;
+      align-items: start;
+      height: 30%;
+   }
+
+   .language2 {
+      width: 30%;
+      display: flex;
+      justify-content: center;
+      align-items: start;
+      height: 100%;
+   }
+
+   .lg2 {
+      height: 100%;
+      width: 20%;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      font-family: "League Spartan", serif;
+      font-size: 4vw;
+      color: #fdecfd;
+      margin: 0 2vw;
+   }
+   .popup {
+      width: 90%;
+      margin: 20px auto;
+      height: 12vw;
+      background: rgb(148, 92, 134);
+      background: linear-gradient(45deg, rgba(148, 92, 134, 1) 0%, rgb(133, 81, 120) 50%, rgba(148, 92, 134, 1) 100%);
+      border-radius: 4px;
+   }
+ 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+}
+
+
+
+
+
+
+
+
+
+/* ТЕлефоны ниже 480пх*/
+@media only screen and (min-width: 480px) {
+   body {
+      background-color: lightblue;
+   }
+}
+
+/* ТЕлефоны выше 480пх*/
+@media only screen and (min-width: 768px) {
+   body {
+      background-color: rgb(173, 230, 176);
+   }
+}
+
+/* планшеты выше 768пх*/
+@media only screen and (min-width: 1024px) {
+   body {
+      background-color: rgb(224, 230, 173);
+   }
+}
+
+/* ПК выше 1024пх*/
+@media only screen and (min-width: 1200px) {
+   body {
+      background-color: rgb(179, 173, 230);
+   }
+}
+
+/* ПК выше 1200пх*/
+@media only screen and (min-width: 1700px) {
+   * {
+      box-sizing: border-box;
+   }
+
+   html {
+      height: 100%;
+   }
+
+   body {
+      height: 100%;
+      background-color: rgb(22, 22, 22);
+      margin: 0;
+      padding: 0;
+   }
+
+   .header {
+      background-color: rgb(24, 24, 24);
+      width: 100%;
+      height: 100px;
+      position: absolute;
+   }
+
+   .section1 {
+      height: 90%;
+      width: 100%;
+      background-color: rgb(20, 20, 20);
+      position: relative;
+   }
+
+   .section2 {
+      height: 100%;
+      width: 100%;
+      background-color: rgb(44, 44, 44);
+      position: relative;
+   }
+
+   .section3 {
+      height: 100%;
+      width: 100%;
+      position: relative;
+      background-color: rgb(20, 20, 20);
+   }
+
+   .section4 {
+      height: 100%;
+      width: 100%;
+      position: relative;
+      background-color: rgb(44, 44, 44);
+   }
+
+   .end {
+      width: 100%;
+      height: 200px;
+      background-color: rgb(0, 0, 0);
+   }
+}
+
+/* ПК выше 1920пх*/
